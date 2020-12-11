@@ -1,0 +1,412 @@
+  /* 头部区域 */
+.header{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index:  999;
+    background-color: white;
+}
+.center{
+    width: 1200px;
+    height: 70px;
+    /* background-color: royalblue; */
+    margin: auto;
+}
+.center img{
+    width: 144px;
+    height: 45px;
+    margin-top: 10px;
+    float: left;
+
+}
+.header-right{
+    width: 800px;
+    height: 42px;
+    float: right;
+    /* background-color: red; */
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.on{
+    display: block;
+}
+.hide{
+    display: none;
+}
+
+.header-product-inf{
+    height: 42px;
+    width: 180px;
+    list-style: none;
+    line-height: 42px;
+    /* background-color: blueviolet; */
+    
+}
+.index1{
+    margin-left: 20px;
+    float: left;
+}
+.total-product{
+    margin-right: 20px;
+    float: right;
+}
+.search{
+    border: 1px solid skyblue;
+    border-radius: 20px;
+    position: relative;
+
+}
+.searching-inp{
+    
+    padding-left: 36px;
+    border: 0;
+    outline: 0;
+    width: 211px;
+    height: 40px;
+    border-radius: 20px;
+}
+.search button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 0;
+    outline: 0;
+    background-color: white;
+    cursor: pointer;
+}
+
+.shopping{
+    width: 40px;
+    height: 40px;
+    border: 1px solid skyblue;
+    border-radius: 50%;
+}
+.shopping span{
+    
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: skyblue;
+
+}
+
+
+.login-box{
+    width: 40px;
+    height: 40px;
+    border: 1px solid skyblue;
+    border-radius: 50%;
+
+}
+.login-box span{
+    
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    padding-left: 5px;
+    color: skyblue;
+}
+.header p{
+    color: skyblue;
+}
+/* 这里是商品列表的详情页 */
+.all-list-inf{
+    /* height: 1000px; */
+    width: 100%;
+    background-color: #f6f6f6;
+    overflow: hidden;
+}
+.goods-classification{
+    width: 1200px;
+    height: 231px;
+    margin: auto;
+    margin-top: 80px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+.total-goods{
+    /* height: 1831px; */
+    width: 1200px;
+    background-color:white;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.pages{
+    width: 1200px;
+    margin: auto;
+    height: 60px;
+    background-color:white;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+/* 页面的类信息展示 */
+.goods-classification{
+    overflow: hidden;
+}
+.list-top{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+.list-bottom{
+    margin-left: 20px;
+}
+
+.all{
+    display: flex;
+    width: 1002px;
+    /* height: 100px; */
+    flex-wrap: wrap;
+    margin-left: 30px;
+    border-bottom: 1px black dashed;
+}
+.active{
+    color: skyblue;
+}
+.all>li{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 24px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.list-center{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+
+    
+}
+.clarify{
+    width: 1002px;
+
+    display: flex;
+    margin-left: 30px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    border-bottom: 1px black dashed;
+    
+}
+
+.clarify>li{
+    width: 220px;
+    cursor: pointer;
+}
+/* 这里是商品列表详情（没一件产品） */
+.total-goods>ul>li{
+    overflow: hidden;
+}
+.every-product{
+    width: 280px;
+    height: 450px;
+    margin: 20px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 2px 2px 10px 3px pink ;
+}
+every-product-price>button{
+    width: 50px;
+    height: 20px;
+    font-size: 20px;
+    outline: 0;
+    border: 0;
+    background-color: skyblue; 
+
+}
+#go-shopping{
+    line-height: 16px;
+    font-size: 16px;
+    outline: 0;
+    border: 0;
+    background-color: skyblue;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+
+}
+.every-product-img{
+    width: 280px;
+    height: 280px;
+}
+.every-product-img>img{
+    width: 280px;
+    height: 280px;
+}
+.every-product-dp{
+    width: 280px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    color: white;
+    background-color: goldenrod;
+    margin-bottom: 10px;
+}
+.every-product-type{
+    display: flex;
+    justify-content: space-around;
+
+}
+.every-product-type>span{
+    margin-left: 10px;
+}
+.every-product-price{
+    display: flex;
+    justify-content: space-evenly;
+}
+.icon-img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: skyblue;
+    margin-right: 10px;
+}
+.icon-img>span{
+    color: white;
+}
+.every-product-price{
+    font-size: 24px;
+    color: red;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+.go_count{
+    width: 100%;
+    height: 20px;
+    font-size: 200px;
+}
+.go_count{
+    height: 20px;
+    width: 50px;
+    border: 0;
+    outline: 0;
+
+}
+
+.total-goods>ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* 页面的分页 */
+.pages-every{
+    /* margin-top: 15px; */
+    width: 1200px;
+    height: 30px;
+    margin: auto;
+    background-color:white;
+    text-align: center;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.pages-every>span{
+    /* display: block; */
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 10px;
+}
+
+
+
+/* 底部区域 */
+.footer{
+    width: 100%;
+    height: 260px;
+    background-color: darkgray;
+    /* position: fixed;
+    bottom: 0; */
+    
+}
+.footer-center{
+    width: 1200px;
+    height: 260px;
+    margin: auto;
+}
+.more-inf{
+    overflow: hidden;
+
+}
+.more-inf ul{
+    width: 1200px;
+    display: flex;
+    height: 30px;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.copy-right ul{
+    height: 14px;
+    width: 1200px;
+    color: #ffffff;
+    display: flex;
+    font-size: 14px;
+    line-height: 1;
+    justify-content: space-around;
+
+}
+.copy-right ul li{
+    height: 14px;
+    border-right: 1px solid white;
+}
+#beian{
+    border: none;
+}
+.warning{
+    width: 1200px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+
+
+}
+.warning span{
+    padding-right: 20px;
+    box-sizing: border-box;
+    color: white;
+}
+/* 分页器的内容修改,修改为自己需要的样式*/
+.pagiInfo{
+    width: 1200px;
+    margin: auto;
+    background-color: #f6f6f6;
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.pagination>a{
+    background-color: white;
+    text-decoration: none;
+}
+.m-style .active{
+    background-color: skyblue;
+    border: 1px solid skyblue;
+}
+.pagination>a:hover{
+    background-color: skyblue;
+}

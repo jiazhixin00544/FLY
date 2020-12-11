@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/shopping.css">
+    <link rel="stylesheet" href="../css/search.css">
+</head>
+<body>
+        <!-- 头部区域 -->
+        <div class="header">
+            <div class="center">
+                <div class="img"><img src="https://pic.flyco.net.cn/mall/logo-pc.png" alt="" srcset=""></div>
+                <div class="header-right">
+                    <ul class="header-product-inf">
+                        <li class="index1"><a href="../pages/index.html">首页</a></li>
+                        <li class="total-product"><a href="../pages/goods-list.html">产品分类</a></li>
+                    </ul>
+                    <form class="search" action="">
+                        <input class="searching-inp" type="text" placeholder="飞科剃须刀">
+                        <button><span class="iconfont">&#xe544;</span></button>
+                        <ul class="search-inf ">
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                            <li>5</li>
+                        </ul>
+
+                    </form>
+                    <div class="shopping"><a href="../pages/shopping.html"><span class="iconfont">&#xe503;</span></a></div>
+                    <div class="login-box"><span class="iconfont">&#xe50e;</span></div>
+                    <a class="off" href="./login.html">请登录</a>
+                    <span class="on  hide">欢迎您:志鑫</span>
+                </div>
+            </div>
+        </div>
+        <!--加入购物车详情信息-->
+        <div class="wanna-buy  off">
+            <div class="list-of-inf">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH0AAABjCAYAAAC2XA/OAAAABHNCSVQICAgIfAhkiAAADuBJREFUeF7tXWuQFNUV/k5v9+wsrwUU4huMGkAFNCLM4AvjqwATtbK7zGAZNaUpxTKKD9jSqqhVMVkkD0yVpnwFtSK77K4KoaJJgPBQmFlF5SGgBBEEBAFleSzsTPfMSfXsLs5M952d6el57Uz/2+2+557zfXPPPff0ubfprRY+Kcjqnxh0MwH9kMbFQBsY/0GZ/IB3LO1MQ1SpaQYRoHp/8HUC3WZnHwy853UpV9opsyTLPgSo3qd+R4QB9onskBSW5AunjqWNdsstyUsfAWrwBzcCdH76omIlEPDIFJfyR7vlluSljwDN92k1TDw/fVGxEhhY7HUp19sttyQvfQRIF9H4IQ8LhdVJCFOlFZFEXG3mLaSw3KtmPB23IrPUJnMIREhP92poUR8F45l4OWEJE6eOVf6VrvxSe3sRsIX0eX4eJUFbZ6LaHI9LmZ6Myo828kWyDEueJhn5xf4ME3bU3ULbdRxsIV0XVO9TvyHC4BhwmTd73I6EQeKDb3N/ZwhvA5hQ7MRkwf5X66roThtJD75KRLfHKy6F5TNqxtNukUG1TfwkCE9kweBSFzoCjKttI31+i+Zl5nnxyDLRXd5x8isixGc28QIi3FRiJEsIMJ6yjfTGNVwZ1rSDJlNGk8el1JRGepZI7a4bgn3uXe+rwR9cA9Alcf22elyKMOOnB3BlEj7pTtfSfXsQaC/DANtGemcw9zQRHjOqx26Py+FP4OJbiWIjd6cCnH+qPYYWo5SPvzKxmrGirpom2Er6/A/UKzmMFfHdEeHJKeOUp4QuvplfBWAIAsefCzjlYqQsPZv3HwU27DLKCDOmP1NNc2wlvZG5LNSiHSKgd3SXDPi8LmW8kPQ3+Q4w5sbfP28wcObA9AAoxtab9gB7DxktD4Vx8ewaWmsr6R3zuroAMETjLMnygJoxZKIK0LlW14PAmOuk3sDoM4uRtvRsXv0F0K4aZOyoq6Kh+n8zQHpwGkDPGVw8qGqKS35TONqbeDkIV8Xfv+JHgCKlB0IxtT7SDnwYybvFXgw8O6uKHswI6Y2r+fSwpBlmFAa/5HU5fiUiYEYTPygR/hx/f+QZwKA+xURberZu2w9s/9ZkPgdueaaKdC9s/0iPuHhfcCuIzonumoFdXpcidNa1b/NQhPBlvLqnVJai+FR+Bh98CRwNxI1yxqFZ1dS/67+2u/eOeV17DuBp8cqGZXnE1DH0mdDFN7PumIZE39eXbuNjfj6pQFBcz6ph4L0tJq6dsXBWNd2cUdLrfdrPiHihYV5hfsDrdvxFRMXMZtaXEw/E3790KNDXWVwEWrF2z2Fg89cmLQl31v2c9GVx5MrISF+0hnu1qdohEOJX2e94XMpk4bzezDdLiLxxi7mGngT8cJAVGIqrzbqdwLdtJjaX4eyu16oZI73Dxat6kia2IpYRkPrJ/WouoKBwtDexITvXpxwYe3ZxEWjF2pVbAC0c25KBdbOq6KLo/2ZkpOsd1LeojxHjaYOLl3Ctd6yyNAHppm/dStm5xD8DURYOjKfqqunJrJDe6A9eEgatMVF1tselzBCZUCvIzo04DTg1ra0YVsZO4bTZ8g2wy5DeArqycFkhvdPF62qcWCro/2Pweq/LMVoEZyk7Z+2HtnoruF0zxGgnsnBZI73eF3yDiKbGmyE55ME1P6b9QhffzHp+OOaHIRFCE4ahzBokPbtVuwas3mpq42t1VXRH/J2Mzel6R/NbtNuZI2/QYi+i2z3j5NeFLl5QQhWOyir1bBpTs06UzRThlVHSGz/mQeGgts8QzDHP87odt4pMExVWROePU4OlZz9dK3hvoRdMzLmFWrM60vXO6v3BdQQaFddxwmoa/dlak+wcgO11VVRavEWBKYqBOC4Ll7U5vTOY0zdBPGqY18FjalyOj4QuXlBYYRaN9uxxnNg60Wqnq2DCrHVG3XtkpH+gXkNhLDG4eMLj3nHK70QmzRBk5xIZU4zk1woGB+KycFkd6Y0b2RE+rB0GoTy6Y2as8LqVhBscapuZDUR21nkVI8FmNs9s5oNkWBYbs3BZJT3i4n3qOyBMjFGaofVW5MqfjqFjIgJFNfGiAKXYfghWA96Mu/eOeT34AEBzjFE83eR1y/8QunhBYQXi3hoVG9ld9oreSuq7WOqqabkIl6yQPm8ND5c0bbNRCXre45LvEwZzgsIKAKZJh2Ijf2YTf0KEmJcpHFcwkZNArqvTer+6k4AzYl08f+FxO85NRNZMk+wcA62zqsj2I1MK6UcjqjRKZkBkZaRHonh/8EUC3R0PbHcbHK26sEIi0IquoixcMlNfFknXqgjcZIzGeZrH7firyHCrwYoVIAupTTpBbtZIT7DBcaHHpZyo3zJdlpgUVjBj7axquriQiLJT13SWs1kjvcPFq6sJcEcbrx84WDZOrqwhCgkDOgsJCDsBzjdZ6Sauskr6/Bb1CWbEVHHogJKEq6aMVVYKSRcUVhRrdk6UhUs2RZ1V0hv8QRdAPuN6Hb/zupXHRaRbeamQb6PTTn1qm1nfHxDZohR1mRZM5HTJ1tV5g181qabBGq9LuTQRMKm+PrQT5HySZUdgm9WR3jmvNxFQFQdkwg2O+rOpFgrkE1F26iI6oyeVApOsk97g0+4C8UvxQOhlVVPGyfXCeb2UnYtAYzULF41r1kkXbnBkfs3rdhjquaKVLfbCCrtim6yTrpPY4AtuAtGImKUbY5/XrfwgkSsUZeeSjVrtdLO5kCUqmEgmC5fTkR4h3a/qW5Ije6WjLyksj6oZTxtEgIrWp2YF/bkgJdN9Co9fS1AwkRfRe8dI1yaC+J14hRh41OtS/pBwtBdxds5KwUTekC6qpgFjicetXNcN6eaHDab4a8/0qLRbvp1eLidzesdoVxeDcG0MOElscLRrXrOblEzLszOeyRnp9X71EQJmG8BimuRxy++KQLQrgs00SXbLTzcLl/NATlegcTWPDEvaehNwnvW4FEOQF/1csRVWpFMwkTdzepciVo8LtyMrZfdIzKQ8u7OROXPvOkj1PmvHhduRf84kSXbLtvu9Q05JFx0XDqa7PW755UTgibJzIBg3TNrNQrblmbyOTrRtqTv1ckq6qJqGgWavS6nuhnTT82S7M7in3E+nliCnpEdcvF/9kIAxcWR0u8FRuG7tKax2Z0caeYmck97gU38LgkkBReLjwnVMTOvEugOrZ9xPumAi76J3XSGrx4V3kl6cLt7k8KBUfss5H+lWjwvXjYwkajQsMDtIOBUQCulZOw5myDnpOuBWjgsvJKLyTdf8IN0XvBdEz8eDw6Bqr0tuzjfQCl2fvCBdVE0D5pc9bodhK1Shg55r/fOC9IiL9wX/B6KYzYzdHReea/AKtf/8Id3iceGFCnwu9c4b0kXHhQP8oMfleDaXIPW0vvOGdOFx4Yx3PW5lUk8DPpf25A3pnUu3ZaWvK6f/c2DGQSJuClYoD/1iNBlOgM830msB/D59s0sSdASYMMs7TtExjbnyivQEx4WXWLSEAG/yuBwX5DXpunL1PnU3EU6zZGOpUSwCzBs8bkf8Ea2Z+YZLOtg3tGjVYG5MR0apbScCbH60S1659y6yGvzq9QCmMcd+IKBEZnIIEPAtQG953PIbZi3ykvTkTCs9ZRWBEulWkSvgdiXSC5g8q6qXSLeKXAG3K5FewORZVb3gSf/76uC8MOOyQBD9Dh4L9+/jpKO9nbRXVfH+EVamT7/a+A0Tq2DZ1e6NVQEPSdLtxwLsOqayU9NY7u2kA7KE9W3ttODXN4hP0LRDh4Il/d+fhqZv36fVHTrODhEQToXaB/el+z1uR8KNE3YAmYyMpZt4yLZ9gaUH25DwO9FOhT5tV+m2GZMda5ORm+ozBUn6W2uC83YcCHtV4RmTsTD0dVLzvdeUJ9w8kSpwqT4/d7l6Revx0DI1nMq35fjOGZMrbN+xU3Ckr94aeqRlqzo7WcK7yBlcKT10x+UO/diTrF/6CF+/I/BFaoR3qSldbPeILyjSvzzI/ZdtCO4/cIRjPtF93illOH2AhEGVElrbGPsOh7FxlwYtyhPIEjRylg/KxRz/4vLA5tY2Hh79axvcjzD6LBm9nEC5TDh4lPHVtyF8vif2s8hE2CVXlI+0U++CIn3RWu2Vzbu1X0aDd+k5MoYOMn6NUyd/2aZgDPF9K/DCvT9x3pPNoT570fEJLJFeJ3DiGnmmhFFnxX9avuP2vkOMxZ+qMSoyY/rMG52Gz6FYtaOgSF/wsbp3y57QiWPHhpwsYey5itD2LXtCWLdDO3G/rxO7773GGft1CavIJdlu7spAw/4jPKXr8TMGEq4aIdZZf279Vxo27Iwe8bxixuSKhF+2SlKdyGMFRfrc9wK8//D3X+2aMEKJuHTRpc/7Cz4MnLitu/iHJjoTI54Kekk8+8Ky9s8OHcOwrkevHKHgzIGJYT8aYCxc8/1olwhHH5nk7JtEd0k90qNJ1xFo8n9Puv73jMnOrNr8/NLj24+205AuNq67UMHgyu5VeGNVMIZAO/XuvvekfjvZeSjdkV4mIfTwRKf5ZJohE+wY6SC0zZjk7GOXigVFevycftoACZcNy+85/fVVgQV7W/mmdOb0MuJVD0+quLwoSU81el++KYjo9XwuovcXl7Tf2BrAomjC9Mhdj+DNrlL0HodKZJ2+PnjgwFGOWaNF1ukDyzCoH0XW6fuPhLFxpxZDuO7aJWf5yXaud5MdeX9bGdhx4AifFf384H4SRg8pQ6/yznV6G+OLb0LYti92nV5G/I1U4Rxup94F5d510PSMnH+rOjs68ZIM+LnMyPm38SjflsBaNWRltVTkGbkucv+5Tn3/8z2hy5IlfmBvafFdExx63V3OrkVrtSlb92r1qRBfIeO++29wGrZwp2tEwY30LoP/uzn0my1fa08cbmfhQr3CgdCgPtI9+fKW7aOv+Iotu9UFO78LD0xEXGUFdvXtRZOnusrNTtRMl3Mr7ibtPm0ToM/xLZ9rcwm4tC0QPkWf6/tWkNrLgb1lEr2/P6BMs3MutEvxJZ+qdYcDfNPhYzy8LcAIaED/XtTey0HbQsyLbnWXG3al2NW3LqdgR7qdIBSbrP8DVmVQdK+dz30AAAAASUVORK5CYII=" alt="" srcset="">
+                <p>购物车空空如也...</p>
+                <button><a href="../pages/goods-list.html">去购物</a></button>
+            </div>
+        </div>
+        <!-- 加入商品以后，购物车里面的页面内容 -->
+        <div class="count-money on hide">
+            <div class="count-top">
+                <div class="top1"> <input type="checkbox"><span>全选</span></div>
+                <div class="top2"><span>商品信息</span></div>
+                <ul class="count-control">
+                    <li>单价</li>
+                    <li>数量</li>
+                    <li>小计</li>
+                    <li>操作</li>
+                </ul>
+            </div>
+            <div class="count-center">
+                <div class="buy-first">
+                    <div class="center1"><input type="checkbox"></div>
+                    <div class="count-inf"><img src="https://pic.flyco.net.cn/mall/goods/FH6276/main/05ee5f427e984f4dae12b0fc7be5937f.png" alt="" srcset=""><span>飞科电吹风FH6376</span></div>
+                    <div class="count-price">$89.00</div>
+                    <div class="count-num"><button>-</button><span>1</span><button>+</button></div>
+                    <div class="count-price-end">$89.00</div>
+                    <button class="del">删除</button>
+    
+                </div>
+            </div>
+            <div class="count-bottom">
+                <span class="counting">应付金额：</span>
+                <div class="total-money">$89.00</div>
+                <button class="buy">去结算<span>(1)</span></button>
+            </div>
+        </div>
+        <!-- 底部 -->
+    <div class="bottom">
+        <div class="footer">
+            <div class="footer-center">
+                <div class="more-inf">
+                    <ul>
+                        <li>全场包邮</li>
+                        <li>工厂正品直发</li>
+                        <li>享受省心多</li>
+                        <li>全国网点 联保服务</li>
+                    </ul>
+                </div>
+                <div class="copy-right">
+                    <ul>
+                        <li>Copyright © 2013-2020上海飞科电器股份有限公司</li>
+                        <li>版权所有</li>
+                        <li>网站备案 / 许可证号：沪ICP备13041208号</li>
+                        <li>增值电信营业经营许可认证：沪B2-20160083</li>
+                        <li id="beian">沪公网安备 31010502001341号</li>
+                    </ul>
+                </div>
+                <div class="warning">
+                    <span><a href=""><img src="https://www.flyco.com/webpack/20201110161945296/img/footIcon5.415e6324.png" alt="" srcset=""></a></span>
+                    <span><a href=""><img src="https://www.flyco.com/webpack/20201110161945296/img/footIcon6.2bb41421.png" alt="" srcset=""></a>上海工商</span>
+                    <span><a href=""><img src="https://www.flyco.com/webpack/20201110161945296/img/footIcon6.2bb41421.png" alt="" srcset=""></a>上海网警网络110</span>
+                    <span><img src="data:image/png;base64,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" alt="" srcset="">支付宝待约商家</span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="../assets/jquery/jquery.js"></script>
+    <script src="../js/public.js"></script>
+    <script src="../js/search.js"></script>
+    <script src="../js/shopping.js"></script>
+</body>
+</html>

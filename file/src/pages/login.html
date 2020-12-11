@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <div class="center">
+        <form id="login">
+            <dl>
+                <dt>
+                    <div class='header'>
+                        <h3>登录账号</h3>
+                    </div>
+                </dt>
+                <dt></dt>
+                <dt>
+                    <div class='letter'>
+                        <label for="regist_username">账&nbsp;&nbsp;&nbsp;号:&nbsp;</label>
+                        <input autocomplete="off" type="text" name="username" id="username" tabindex='5' placeholder="请输入您的账号"/>
+                    </div>
+                </dt>
+                <dt>
+                    <div class='letter'>
+                        <label for="regist_password"> 密&nbsp;&nbsp;&nbsp;码:&nbsp;</label>
+                       <input autocomplete="off" type="password" name="first_password" id="first_password" tabindex='7'  placeholder="请输入您的密码"/>
+                    </div>
+                </dt>
+                <dt>
+                    <div class='password'>
+                        <label for="final_password">确认密码:&nbsp;</label>
+                        <input autocomplete="off" type="password" name="final_password" id="final_password" tabindex='8' placeholder="请确认密码"/>
+                    </div>
+                </dt>
+                <span class="hide login_error">您的账号或密码填写有误！！！</span>
+
+                <dt>
+                    <div class="btn">
+                        <input type="submit" name="" id="regist_button" value='登录' tabindex='9'/>
+                        <input type="button" name=" " id="" value='注册' tabindex='10'/>
+                        <a href="../pages/index.html"> 
+                            <input type="button" name="" id="back" value='返回' tabindex='10'/>
+                        </a>   
+                    </div>
+                </dt>
+            </dl>
+        </form>
+    </div>
+    <!-- 利用js代码实现登录的效果，需要引入各种安装包和文件 -->
+    <script src="../assets/jquery/jquery.js"></script>
+    <script src="../assets/jquery-validation/jquery.validate.js"></script>
+    <script src="../assets/jquery-validation/localization/messages_zh.js"></script>
+    <script src="../js/public.js"></script>
+    <script src="../js/login.js"></script>
+</body>
+</html>

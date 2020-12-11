@@ -1,0 +1,361 @@
+/* 头部区域 */
+.header{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index:  999;
+    background-color: white;
+    box-shadow: 0 3px 10px gray;
+}
+.center{
+    width: 1200px;
+    height: 70px;
+    /* background-color: royalblue; */
+    margin: auto;
+}
+.center img{
+    width: 144px;
+    height: 45px;
+    margin-top: 10px;
+    float: left;
+
+}
+.header-right{
+    width: 800px;
+    height: 42px;
+    float: right;
+    /* background-color: red; */
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.on{
+    display: block;
+    color: skyblue;
+}
+.hide{
+    display: none;
+}
+
+.header-product-inf{
+    height: 42px;
+    width: 180px;
+    list-style: none;
+    line-height: 42px;
+    /* background-color: blueviolet; */
+    
+}
+.index1{
+    margin-left: 20px;
+    float: left;
+}
+.total-product{
+    margin-right: 20px;
+    float: right;
+}
+.search{
+    border: 1px solid skyblue;
+    border-radius: 20px;
+    position: relative;
+
+}
+.searching-inp{
+    
+    padding-left: 36px;
+    border: 0;
+    outline: 0;
+    width: 211px;
+    height: 40px;
+    border-radius: 20px;
+}
+.search button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 0;
+    outline: 0;
+    background-color: white;
+    cursor: pointer;
+}
+
+.shopping{
+    width: 40px;
+    height: 40px;
+    border: 1px solid skyblue;
+    border-radius: 50%;
+}
+.shopping span{
+    
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: skyblue;
+
+}
+
+
+.login-box{
+    width: 40px;
+    height: 40px;
+    border: 1px solid skyblue;
+    border-radius: 50%;
+
+}
+.login-box span{
+    
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    padding-left: 5px;
+    color: skyblue;
+}
+.header p{
+    color: skyblue;
+}
+/* 购物车 */
+.wanna-buy{
+    width: 1200px;
+    height: 443px;
+    /* background-color: red; */
+    margin: auto;
+    margin-top: 90px;
+    margin-bottom: 10px;
+    position: relative;
+    border: 1px solid skyblue; 
+    /* display: none; */
+
+}
+/* 购物车购买信息 */
+.list-of-inf{
+    width: 1200px;
+    height: 240px;
+    text-align: center;
+    position: absolute; 
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    /* background-color: pink;  */
+}
+.list-of-inf p{
+    line-height: 1;
+    margin-top: 20px;
+    color: skyblue;
+    margin-bottom: 20px;
+}
+.list-of-inf button{
+    width: 100px;
+    height: 30px;
+    margin-top: 2;
+    font-size: 24px;
+    line-height: 30px;
+    background-color:  red;
+    border-radius: 15px;
+    outline: 0;
+    border: 0;
+}
+.list-of-inf button a{
+    color: skyblue;
+}
+.hide{
+    display: none;
+}
+/* 底部区域 */
+.footer{
+    width: 100%;
+    height: 260px;
+    background-color: darkgray;
+    /* position: fixed;
+    bottom: 0; */
+    
+}
+.footer-center{
+    width: 1200px;
+    height: 260px;
+    margin: auto;
+}
+.more-inf{
+    overflow: hidden;
+
+}
+.more-inf ul{
+    width: 1200px;
+    display: flex;
+    height: 30px;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.copy-right ul{
+    height: 14px;
+    width: 1200px;
+    color: #ffffff;
+    display: flex;
+    font-size: 14px;
+    line-height: 1;
+    justify-content: space-around;
+
+}
+.copy-right ul li{
+    height: 14px;
+    border-right: 1px solid white;
+}
+#beian{
+    border: none;
+}
+.warning{
+    width: 1200px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+
+
+}
+.warning span{
+    padding-right: 20px;
+    box-sizing: border-box;
+    color: white;
+}
+/*清空购物车列表*/
+.count-top{
+    width: 1200px;
+    height: 60px;
+    margin: auto;
+    background-color: #f6f6f6;
+    margin-bottom: 10px;
+    border: 1px solid skyblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.count-control{
+    display: flex;
+
+}
+.count-control>li{
+    width: 150px;
+    text-align: center;
+}
+.top1{
+    margin-left: 10px;
+}
+.top1 span{
+    margin-left: 5px;
+}
+
+/* 商品的购买，删除页面 */
+.count-center{
+    width: 1200px;
+    border: 1px solid skyblue;
+    /* height: 1000px; */
+    margin: auto;
+    margin-bottom: 10px;
+    display: flex;
+}
+.count-num span{
+    display: block;
+    width: 30px;
+    height: 28px;
+    background-color: white;
+    line-height: 28px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+
+}
+.count-num button{
+    width: 30px;
+    height: 30px;
+    outline: 0;
+    border: 0;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid black;
+}
+.del{
+    border: 0;
+    outline: 0;
+    border: 1px solid black;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+
+}
+.count-price-end{
+    /* margin-left: -200px; */
+}
+
+
+
+
+.count-num{
+    display: flex;
+}
+
+
+.count-bottom{
+    width: 1200px;
+    height: 60px;
+    margin: auto;
+    background-color: #f6f6f6;
+    margin-bottom: 10px;
+    border: 1px solid skyblue;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+.buy-first{
+    margin: 5px;
+    width: 1200px;
+    height: 162px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f6f6f6;
+
+}
+.count-inf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.count-inf img{
+    height: 100px;
+    width: 100px;
+}
+.total-money{
+    color: red;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.counting{
+    margin-left: 10px;
+}
+.buy{
+    display: block;
+    outline: 0;
+    border: 0;
+    width: 80px;
+    height: 30px;
+    background-color: red;
+    line-height: 30px;
+    text-align: center;
+
+}

@@ -1,0 +1,95 @@
+body{
+   background-color: #f6f6f6;
+   /* background-image: url('../images/飞科商城-科技只为精彩！_files/scene.png'); */
+}
+.center{
+    position: relative;
+    width: 1200px;
+    height: 700px;
+    margin: auto;
+    background-color: #f6f6f6;
+    background-image: url('../images/飞科商城-科技只为精彩！_files/scene.png');
+    background-position: 0 ,0;
+
+}
+
+.title{
+    width: 200px;
+    margin: auto;
+}
+#login{
+    width: 650px;
+    height: 400px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(21, 39, 46,0.3);
+    
+}
+.header {
+    /* background-color: slategrey; */
+    width: 650px;
+}
+.header h3{
+    font-size: 30px;
+    height: 40px;
+    width: 500px;
+    text-align: center;
+    line-height: 40px; 
+    color: black;  
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.letter{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.password{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+label{
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+input{
+    height: 30px;
+    outline: 0;
+    border: 0;
+    border-radius: 15px;
+}
+.letter>input{
+    margin-left: 25px;
+}
+.btn{
+    width: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.btn input{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.login_error{
+    margin: auto;
+    display: block;
+    color: red;
+    background-color: skyblue;
+    text-align: center;
+    width: 400px;
+    height: 40px;
+    margin-bottom: 30px;
+    line-height: 40px;
+    font-weight: 900;
+    border-radius: 20px;
+}
+.hide{
+    display: none;
+}
